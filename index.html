@@ -55,12 +55,28 @@
         </select>
         <br><br>
 
+        <label>How would you prefer to be contacted?</label><br>
+        <input type="radio" id="contact_email" name="contact_method" value="email">
+        <label for="contact_email">Email</label><br>
+        <input type="radio" id="contact_phone" name="contact_method" value="phone">
+        <label for="contact_phone">Phone</label><br>
+        <input type="radio" id="contact_both" name="contact_method" value="both">
+        <label for="contact_both">Both</label><br>
+        <br>
+
+        <label for="date">Preferred Contact Date:</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+
+
+
         <label for="terms">
             <input type="checkbox" id="terms" name="terms" required>
             I agree to the terms and conditions
         </label>
         <br><br>
-        
+
         <button type="submit">Submit</button>
     </form>
 </body>
