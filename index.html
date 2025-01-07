@@ -42,6 +42,24 @@
         <input type="tel" id="phone" name="phone">
         <br><br>
 
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+        <br><br>
+
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+            <option value="general">General Inquiry</option>
+            <option value="support">Support</option>
+            <option value="feedback">Feedback</option>
+            <option value="collaboration">Collaboration</option>
+        </select>
+        <br><br>
+
+        <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the terms and conditions
+        </label>
+        <br><br>
         
         <button type="submit">Submit</button>
     </form>
