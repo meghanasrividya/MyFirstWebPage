@@ -43,8 +43,6 @@ This is a personal portfolio website for **Meghana Aenugu**, showcasing contact 
 
 ---
 
-## How to Use
+## GitHub Pages
 
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/your-repo-name/portfolio-website.git
+- https://meghanasrividya.github.io/MyFirstWebPage/
